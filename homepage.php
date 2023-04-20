@@ -7,7 +7,7 @@
     
     <h1>Welcome, <?php session_start(); echo $_SESSION['username']; ?>!</h1>
     <p>Please choose one of the following options:</p>
-    <button onclick="location.href='withdraw.php'">Withdraw</button>
+    <button onclick="location.href='withdraw.html'">Withdraw</button>
     <button onclick="location.href='deposit.html'">Deposit</button>
     <button onclick="location.href='transfer.php'">Transfer Money</button>
     <button onclick="location.href='loanpay.html'">Make Loan Payment</button>
