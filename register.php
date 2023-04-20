@@ -34,7 +34,6 @@ try{
 	VALUES ('$user_name', '$fname', '$addy', '$Pnum', '$usrpwd')";
 	$con->exec($sql);
 	echo "User created!";
-	$con->close();
 	// Redirect to success page
 	header('Location: index.html');
 	exit;
